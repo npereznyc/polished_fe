@@ -6,7 +6,7 @@ function PolishList() {
 
 	useEffect(() => {
 		axios
-			.get("/api/polished/")
+			.get("/api/polishes/")
 			.then((res) => {
 				console.log(res.data)
 				setPolishList(res.data)
